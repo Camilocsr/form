@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Form</title>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="bg-navbar-backgraund navbar bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/1.png" width="45" height="30">
+              </a>
+                <a class="decorationnone" href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="decorationnone" href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="decorationnone" href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="decorationnone" href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="contenedor">
+            <div class="formulario">
+                <div class="color">
+                    <form action="">
+                        <div class="centar-text">
+                            <h1>Contacto</h1>
+                            <div class="ceparar">
+                                <label for="">Nombre</label>
+                                <input class="inputbor" id="name" type="text">
+                            </div>
+                            <div class="ceparar">
+                                <label for="">email</label>
+                                <input class="inputbor" type="email">
+                            </div>
+                            <div class="ceparar">
+                                <label for="">Comunicado</label>
+                                <textarea class="inputbor" placeholder="Le escribo por el motivo de..." name="" id="comunicado" cols="30" rows="5"></textarea>
+                            </div>
+                            <button class="botonDeEnvio" type="submit">Enviar</button>
+                        </div>
+                        <p id="parrafo-formulario"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
